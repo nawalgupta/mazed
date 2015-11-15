@@ -1,0 +1,89 @@
+@import url(https://fonts.googleapis.com/css?family=Offside);
+
+body, html {
+	font-family: 'Offside', Arial, sans-serif;
+	line-height: 1.5;
+	-webkit-text-size-adjust: 100%; 
+	position: relative;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	background: #477B75;
+}
+
+canvas {
+	width: 512px;
+	height: 512px;
+	position: absolute;
+   	top: 50%; left: 50%;
+	-webkit-transform-style: preserve-3d; -moz-transform-style: preserve-3d; transform-style: preserve-3d;
+	-webkit-transform: translate(-50%, -50%); -moz-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); -o-transform: translate(-50%, -50%); transform: translate(-50%, -50%);
+}
+
+header, footer {
+	background: #334B49;
+	height: 5em;
+	width: 98%;
+	padding-left: 1%;
+	padding-right: 1%; 	
+}
+
+header {
+	display: -webkit-box; display: -moz-box; display: -ms-flexbox; display: -webkit-flex; display: flex; 
+	position: fixed;
+	top: 0;
+	z-index: 1;
+}
+.logoh {
+	display: block;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	width: 5em;
+	height: 5em;
+}
+.goback { color: white; text-decoration: none;} 
+.title-wrapper {
+	color: #F0F373;
+	flex-grow: 1;
+	text-align: right;
+	height: 5em;
+}
+.title-wrapper h1 {
+	margin: 0; padding: 0; border: 0; display: block; 
+	width: 100%;
+	height: 50%;
+	 
+} 
+.title-wrapper h2 {
+	margin: 0; padding: 0; border: 0; display: block;
+	width: 100%;
+	height: 50%;  
+}
+footer {
+	position: fixed;
+	bottom: 0;
+	z-index: 1;
+	text-align: center;	
+}
+footer a img { max-height: 3em; }
+footer span {
+	font-size: 0.8em;
+	color: #F0F373;
+	position: absolute;
+	bottom: 0;
+	right: 1%;
+}
+figure img {
+	max-height: 100%; max-width: 100%;
+}
+
+@media screen and (max-width: 65em) {
+	body {font-size: 0.7em;}
+	.title-wrapper h1 {padding-top: 0.5em;}
+	.title-wrapper h2 {display: none;}
+	
+}
