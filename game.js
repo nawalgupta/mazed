@@ -72,7 +72,7 @@ Block.prototype.draw = function() {
 };
 var Persona = function(config){
     this.y = config.y || (yi)*m;  this.x = config.x || (xi)*m; this.leftCollision = false; this.rightCollision = false; this.bottomCollision = false;  this.topCollision = false;
-    this.color = config.color || color(255, 232, 186); this.height = config.height || m; this.width = config.width || m; this.yspeed = config.yspeed || 0.0; this.xspeed = config.xspeed || 0.0;
+    this.color = config.color || color(10, 174, 250); this.height = config.height || m; this.width = config.width || m; this.yspeed = config.yspeed || 0.0; this.xspeed = config.xspeed || 0.0;
 };
 Persona.prototype.draw = function() {fill(this.color); rect(w/2-m/2,h/2-m/2,this.width,this.height); };
 Persona.prototype.move = function() {
