@@ -3,7 +3,7 @@
 body, html {
 	font-family: 'Offside', Arial, sans-serif;
 	line-height: 1.5;
-	-webkit-text-size-adjust: 100%; 
+	-webkit-text-size-adjust: 100%;
 	position: relative;
 	width: 100%;
 	height: 100%;
@@ -15,8 +15,7 @@ body, html {
 }
 
 canvas {
-	width: 512px;
-	height: 512px;
+	border: 2px solid black;
 	position: absolute;
    	top: 50%; left: 50%;
 	-webkit-transform-style: preserve-3d; -moz-transform-style: preserve-3d; transform-style: preserve-3d;
@@ -28,11 +27,11 @@ header, footer {
 	height: 5em;
 	width: 98%;
 	padding-left: 1%;
-	padding-right: 1%; 	
+	padding-right: 1%;
 }
 
 header {
-	display: -webkit-box; display: -moz-box; display: -ms-flexbox; display: -webkit-flex; display: flex; 
+	display: -webkit-box; display: -moz-box; display: -ms-flexbox; display: -webkit-flex; display: flex;
 	position: fixed;
 	top: 0;
 	z-index: 1;
@@ -45,7 +44,7 @@ header {
 	width: 5em;
 	height: 5em;
 }
-.goback { color: white; text-decoration: none;} 
+.goback { color: white; text-decoration: none;}
 .title-wrapper {
 	color: #F0F373;
 	flex-grow: 1;
@@ -53,21 +52,21 @@ header {
 	height: 5em;
 }
 .title-wrapper h1 {
-	margin: 0; padding: 0; border: 0; display: block; 
+	margin: 0; padding: 0; border: 0; display: block;
 	width: 100%;
 	height: 50%;
-	 
-} 
+
+}
 .title-wrapper h2 {
 	margin: 0; padding: 0; border: 0; display: block;
 	width: 100%;
-	height: 50%;  
+	height: 50%;
 }
 footer {
 	position: fixed;
 	bottom: 0;
 	z-index: 1;
-	text-align: center;	
+	text-align: center;
 }
 footer a img { max-height: 3em; }
 footer span {
@@ -85,5 +84,5 @@ figure img {
 	body {font-size: 0.7em;}
 	.title-wrapper h1 {padding-top: 0.5em;}
 	.title-wrapper h2 {display: none;}
-	
+
 }
