@@ -3,7 +3,7 @@ Mazed is an endless maze styled game, where there are 3 main type of maze (simpl
 
 If you want to know more about it and what it meant read <a href="http://jmcriat.com/blog/2016/05/19/ReleasingMazed.html">HERE</a>.
 
-If you want to play it, go <a href=" http://jmcriat.com/MazedGame">Here</a>.
+If you want to play it, go <a href="http://jmcriat.com/MazedGame">HERE</a>.
 
 # License
 See the [LICENSE](LICENSE.txt) file for license rights and limitations (GNU GPLv3).
