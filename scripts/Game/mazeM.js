@@ -1,7 +1,7 @@
 ﻿var MazeM = function (game, FW, tilemap) {
     this.dude = 'dude0';
     this.b = 0;
-
+    
     this.FW = FW;
     Phaser.Tilemap.call(this, game, tilemap, 32, 32);
     this.addTilesetImage('blocks0');
